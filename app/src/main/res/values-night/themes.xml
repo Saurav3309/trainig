@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Carekernal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightBlue</item>
+        <item name="colorPrimaryVariant">@color/lightBlue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/bg_color</item>
+    </style>
+
+    <style name="textInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxStrokeColor">@color/lightBlue</item>
+        <item name="boxStrokeErrorColor">@android:color/holo_red_dark</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="errorTextColor">@android:color/holo_red_dark</item>
+    </style>
+
+
+    <style name="AppTheme.EditText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AppTheme.EditTextVerify" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Welcome">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:fontFamily">@font/sf_pro_bold</item>
+        <item name="android:layout_marginTop">86dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WelcomeHint">
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/loginbtn</item>
+        <item name="backgroundTint">@color/lightBlue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="sign">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:text">Do you have Invitation Code?</item>
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="signUp">
+        <item name="android:layout_marginEnd">29dp</item>
+        <item name="android:text">Signup Now</item>
+        <item name="android:textColor">@color/lightBlue</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="forgotPassword">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:text">Forgot Password</item>
+        <item name="android:textColor">@color/lightBlue</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

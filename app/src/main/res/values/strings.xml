@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Carekernal</string>
+    <string name="we_are_so_happy_to_see_you_please_fill_nyour_login_details">We are so happy to see you. Please fill\nyour login details.</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">SignUp Fragment</string>
+    <string name="back">Back</string>
+    <string name="enter_your_email_address_below_and_we_ll_nsend_a_special_reset_password_link_to_your_ninbox">Enter your email address below and we’ll \nsend a special reset password link to your \ninbox</string>
+    <string name="title_activity_main_activitytest">MainActivitytest</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="enter_verification_code_received_in_email">Enter verification code received in email</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>
